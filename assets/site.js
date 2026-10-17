@@ -1,4 +1,4 @@
-/* urdloom.app: language, rune sheet, quiet video handling. No tracking, no cookies. */
+/* urdloom.com: language, rune sheet, quiet video handling. No tracking, no cookies. */
 (() => {
   const $ = (s, r) => (r || document).querySelector(s);
   const LANG = document.documentElement.lang;
