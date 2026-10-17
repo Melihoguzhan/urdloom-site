@@ -58,6 +58,7 @@ p{margin:0 0 1.05em}
 .store{display:inline-flex;align-items:center;min-height:48px;padding:.6rem 1.3rem;border-radius:999px;font-family:var(--cap);font-size:.82rem;letter-spacing:.06em;text-decoration:none;border:1px solid rgba(227,182,118,.55);color:var(--bone);background:rgba(18,15,12,.55);backdrop-filter:blur(6px)}
 .store.live{background:linear-gradient(180deg,#C99A57,#8E6A35);color:#1A140D;border-color:#E3B676}
 .store.soon{opacity:.75}
+.badge{display:inline-flex;border-radius:10px;transition:transform .2s ease,filter .2s ease}.badge img{height:52px;width:auto;display:block}.badge:hover{transform:translateY(-1px);filter:brightness(1.12)}.badge:focus-visible{outline:2px solid #E3B676;outline-offset:3px}
 
 /* columns hang to the right of the thread */
 .col{width:var(--col);margin-inline-start:calc(var(--tx) + clamp(1.5rem,4vw,4rem))}
